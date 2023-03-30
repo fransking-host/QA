@@ -11,12 +11,12 @@ export default ({ loading, onClear, onRandom }: Props) => {
   return (
     <div class="mt-3 flex justify-between text-sm text-slate-4">
       <button
-        title="随机生成预设场景"
+        title="随机生成预设话题"
         disabled={loading()}
         transition-colors
         hover:text-slate-5
         onClick={onRandom}>
-        随机预设场景 🎉
+        随机预设话题 🎉
       </button>
       <button
         class="flex items-center justify-between"
