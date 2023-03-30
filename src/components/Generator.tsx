@@ -603,17 +603,7 @@ export default () => {
   );
   const renderProInfo = () => (
     <div>
-      <a
-        text-sm
-        text-slate-4
-        border-b
-        border-slate
-        border-none
-        hover:border-dashed
-        href="https://qapro.vercel.app"
-        target="_blank">
-        QAChat Pro 体验版上线啦~
-      </a>
+    
     </div>
   );
 
